@@ -1,0 +1,58 @@
+/*body{
+    background: #cccccc; /*Le agrega color al fondo
+}
+*/
+
+.tituloPrincipal{
+    padding-left: 30px;
+}
+
+#banner{
+    width: 100%;
+}
+
+.titulocentralizado{
+    text-align: center; 
+}
+
+
+p{
+    text-align: center; /*Le agrega un propiedad especifica a la etiquetas*/
+    /*Este Style es para centrar el texto */
+}
+
+#mision{
+    font-size: 20px;/*Es el tamaño de la fuente*/
+}
+
+
+strong em{
+    color: red;
+}
+
+.principal{
+    background: #cccccc;
+    padding: 20px; /*Para aumentar el espaciamiento interno entre bloques*/
+}
+
+.diferenciales{
+    background: #FFFFFF;
+    padding: 30px;
+}
+
+
+
+.items{/*Para referenciar una clase se usa un punto*/
+    font-style: italic;
+}
+
+ul{
+    display: inline-block; /* Es para que el texto no actue como bloque y ocupe toda la linea*/
+    vertical-align: top;/* Para qe el texto se alinee con la parte superior de la imagen*/
+    width: 20%;/* Para que ocupe ese total de la pagina*/
+    margin-right: 15%; /*Margen derecho*/
+}
+
+.imagenDiferenciales{
+    width: 30%;
+}

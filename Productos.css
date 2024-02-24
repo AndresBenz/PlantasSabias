@@ -1,0 +1,17 @@
+header{
+    background-color: #BBBBBB;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;/* margin recibe 4 medidas, 1-arriba 2- A la derecha 3-Hacia abajo 4- Hacia la izquierda*/
+}
+
+nav a{
+    text-transform: uppercase;/*ponemos el texto en mayuscula de los link*/
+    color: #000000;
+    font-weight: bold;/*Ponemos el texto en negrita*/
+    font-size: 22px;
+    text-decoration: none; /*le retira el subrallado*/
+
+}
