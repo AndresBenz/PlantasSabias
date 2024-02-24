@@ -1,5 +1,18 @@
 header{
     background-color: #BBBBBB;
+    padding: 20px 0;/* Superior e inferior y 0 para los alterales*/
+}
+
+.Caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 85px;
+    right: 0px;
 }
 
 nav li{
