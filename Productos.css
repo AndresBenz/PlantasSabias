@@ -28,3 +28,39 @@ nav a{
     text-decoration: none; /*le retira el subrallado*/
 
 }
+
+.ProductosNavegacion{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.ProductosNavegacion li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    margin: 0 1.5%;
+    background-color: #CCCCCC;
+    vertical-align: top;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+.ProductosNavegacion h2{
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.ProductoDescripcion{
+    font-size: 18px;
+}
+
+
+.ProductoIngreso{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    
+}
