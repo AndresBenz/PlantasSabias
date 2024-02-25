@@ -99,3 +99,9 @@ footer{
     background: url(Productos/Pie.jpg);
     padding: 40px;
 }
+
+.Copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
+}
