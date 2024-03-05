@@ -1,58 +1,173 @@
-/*body{
-    background: #cccccc; /*Le agrega color al fondo
-}
-*/
-
-.tituloPrincipal{
-    padding-left: 30px;
+header{
+    background-color: #BBBBBB;
+    padding: 20px 0;/* Superior e inferior y 0 para los alterales*/
 }
 
-#banner{
-    width: 100%;
+.Caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
 }
 
-.titulocentralizado{
-    text-align: center; 
+nav {
+    position: absolute;
+    top: 85px;
+    right: 0px;
 }
 
-
-p{
-    text-align: center; /*Le agrega un propiedad especifica a la etiquetas*/
-    /*Este Style es para centrar el texto */
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;/* margin recibe 4 medidas, 1-arriba 2- A la derecha 3-Hacia abajo 4- Hacia la izquierda*/
 }
 
-#mision{
-    font-size: 20px;/*Es el tamaño de la fuente*/
+nav a{
+    text-transform: uppercase;/*ponemos el texto en mayuscula de los link*/
+    color: #000000;
+    font-weight: bold;/*Ponemos el texto en negrita*/
+    font-size: 22px;
+    text-decoration: none; /*le retira el subrallado*/
+
 }
 
-
-strong em{
-    color: red;
-}
-
-.principal{
-    background: #cccccc;
-    padding: 20px; /*Para aumentar el espaciamiento interno entre bloques*/
-}
-
-.diferenciales{
-    background: #FFFFFF;
-    padding: 30px;
+nav a:hover{/*Captura el movimiento del mause*/
+    color: #c78c19;
+    text-decoration: underline; 
 }
 
 
-
-.items{/*Para referenciar una clase se usa un punto*/
-    font-style: italic;
+.ProductosNavegacion{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
 }
 
-ul{
-    display: inline-block; /* Es para que el texto no actue como bloque y ocupe toda la linea*/
-    vertical-align: top;/* Para qe el texto se alinee con la parte superior de la imagen*/
-    width: 20%;/* Para que ocupe ese total de la pagina*/
-    margin-right: 15%; /*Margen derecho*/
-}
-
-.imagenDiferenciales{
+.ProductosNavegacion li{
+    display: inline-block;
+    text-align: center;
     width: 30%;
+    margin: 0 1.5%;
+    vertical-align: top;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000; /* Los bordes se los puede simplicar de esta manera*/
+    /*
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    */
+    border-radius: 10px; /*Puntas de bordes*/
+
 }
+
+
+.ProductosNavegacion li:hover{
+    border-color: #c78c19;
+   
+
+}
+
+.ProductosNavegacion li:hover h2{
+    font-size: 30px;
+
+}
+
+.ProductosNavegacion li:active{/*Captura cuando de hace click*/
+    border-color: #088c19;
+}
+
+.ProductosNavegacion h2{
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.ProductoDescripcion{
+    font-size: 18px;
+}
+
+
+.ProductoIngreso{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    
+}
+
+footer{
+    text-align: center;
+    background: url(Productos/Pie.jpg);
+    padding: 40px;
+}
+
+.Copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
+}
+
+/*STYLE DE CONTACTO*/
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form legend{ /*Separando por una coma puedo aplicarle el mismo estilo a otra etiqueta*/
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: green;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;/*Nos da una leve demora en el selector de enviar formulario*/
+    cursor: pointer;/*Para cambiar la forma del puntero cuando este arriba del boton*/
+}
+
+
+.enviar:hover{
+    background: darkgreen;
+    transform: scale(1.2);/* rotate(70deg); scale=Aumenta el tamaño del objeto una vez este por arriba el mause y rotate es la rotacion del objeto*/
+    
+}
+
+table{
+    margin: 40px 40px;
+}
+
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td,th{
+    border: 1px solid #000000;
+    padding: 8px 15px ;
+}
+/*mobileinputtypes.com*/
+
