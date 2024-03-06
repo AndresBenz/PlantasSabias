@@ -1,3 +1,10 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
 header{
     background-color: #BBBBBB;
     padding: 20px 0;/* Superior e inferior y 0 para los alterales*/
@@ -169,5 +176,42 @@ td,th{
     border: 1px solid #000000;
     padding: 8px 15px ;
 }
-/*mobileinputtypes.com*/
 
+/*CSS para el index (pagina inicial)*/
+
+.banner{
+    width: 100%;
+}
+
+.tituloPrincipal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.principal p{
+    margin: 0 0 1em;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
+
+.Herramientas{
+    width: 120px;
+    float: left; /* la superficie del elemento continúa siendo utilizada y los otros elementos de texto o elementos en línea se posicionan alrededor de él.*/
+    margin: 0 20px 20px 0;
+}
+
+.imagenDiferenciales{
+    width: 250px;
+}
+
+
+/*mobileinputtypes.com*/
+/*https://fonts.google.com/ fuentes de google*/

@@ -7,8 +7,8 @@
         <meta charset="UTF-8"><!--Es el diccionario que vamos a usar-->
 
         <title>Mantenimiento de parques</title><!--Ponemos titulo a la pagina-->
-        
-        <link rel="stylesheet" href="style-home.css"> <!--Es para conectar el archivo hmtl con el css-->
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css"> <!--Es para conectar el archivo hmtl con el css-->
 
         <!--Para separar las etiquetas informativas de las de etiquetas de contenidos usamos head y body-->
      
@@ -19,45 +19,66 @@
             }
         </style>
     -->
+    <!--link de la fuente en html-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
    </head>
 
     <body><!--cuerpo-->
         
-        <header><!--Encabezado principal-->
-            
-           <h1 class="tituloPrincipal"> PlantasSabias </h1>
-
+        <header>
+            <div class="Caja">
+                <h1><img src="Productos/Logo.png" width="20%"></h1>
+                <nav><!--Panel de navegacion -->
+                
+                    <ul class="Navegacion">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Productos.html">Productos</a></li><!--<a> es para referenciar algun link-->
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
 
-        <img id="banner" src="banner/banner.jpg">
+        <img class="banner" src="banner/banner.jpg">
 
-        <div class="principal"><!--El div es el divisor-->
+        <main>
+            <section class="principal"><!--El div es el divisor-->
 
-            <h2 class="titulocentralizado"><!--El background es para ponerle un color de fondo-->Guía de Mantenimiento de Parques para Principiantes</h2><!--H1 Sirve para ponerle titulos existe hasta H6-->
+                <h2 class="tituloPrincipal"><!--El background es para ponerle un color de fondo-->Guía de Mantenimiento de Parques para Principiantes</h2><!--H1 Sirve para ponerle titulos existe hasta H6-->
+                
+                <img class="Herramientas" src="Herramientas/Herramientas.jpg" alt="imagen de herramientas">
+                <!--style="font-size: 20px; text-align: center;">Se agrega style de (CSS) y la propiedad que se va a usar-->
+                <p id="mision"> <!--Se puede agregar un id--> ¡Bienvenido al apasionante mundo del mantenimiento de parques! Aquí comienza tu viaje para crear y conservar espacios verdes vibrantes y acogedores para la comunidad.</p><!--Parrafos-->
+    
+                <p>Introducción:
+                Explora el fascinante mundo del mantenimiento de parques y <strong> cómo tu esfuerzo puede contribuir a la belleza y funcionalidad</strong><!--Pone el texto en negrita--> de estos espacios públicos.</p>
+    
+                <p>Herramientas Esenciales:
+                <strong><em><!--em pone el texto en cursiva (enfatiza)-->Descubre las herramientas básicas que todo encargado de mantenimiento de parques debe tener a su disposición</em></strong>. Desde cortadoras de césped hasta herramientas de poda, familiarízate con estas herramientas esenciales que te ayudarán a mantener el parque en óptimas condiciones.</p>
+    
+            </section>
+    
+            <section class="diferenciales">
+                <h3 class="tituloPrincipal">Diferenciales</h3>
+                <ul><!--Las dos maneras de usar unas lista es ul (lista no ordenada) y ol(lista ordenada)-->
+                    <li class="items">Atencion  Personalizada a los clientes</li><!--li se utiliza para ponerlo en esa lista-->
+                    <li class="items">Espacio Diferenciales</li>
+                    <li class="items">Localizacion</li>
+                    <li class="items">Profecionalizmo</li>
+                </ul>
+    
+                <img src="diferenciales/costado.jpg" class="imagenDiferenciales">
+    
+            </section>
+        </main>
 
-            <!--style="font-size: 20px; text-align: center;">Se agrega style de (CSS) y la propiedad que se va a usar-->
-            <p id="mision"> <!--Se puede agregar un id--> ¡Bienvenido al apasionante mundo del mantenimiento de parques! Aquí comienza tu viaje para crear y conservar espacios verdes vibrantes y acogedores para la comunidad.</p><!--Parrafos-->
-
-            <p>Introducción:
-            Explora el fascinante mundo del mantenimiento de parques y <strong> cómo tu esfuerzo puede contribuir a la belleza y funcionalidad</strong><!--Pone el texto en negrita--> de estos espacios públicos.</p>
-
-            <p>Herramientas Esenciales:
-            <strong><em><!--em pone el texto en cursiva (enfatiza)-->Descubre las herramientas básicas que todo encargado de mantenimiento de parques debe tener a su disposición</em></strong>. Desde cortadoras de césped hasta herramientas de poda, familiarízate con estas herramientas esenciales que te ayudarán a mantener el parque en óptimas condiciones.</p>
-
-        </div>
-
-        <div class="diferenciales">
-            <h3 class="titulocentralizado">Diferenciales</h3>
-            <ul><!--Las dos maneras de usar unas lista es ul (lista no ordenada) y ol(lista ordenada)-->
-                <li class="items">Atencion  Personalizada a los clientes</li><!--li se utiliza para ponerlo en esa lista-->
-                <li class="items">Espacio Diferenciales</li>
-                <li class="items">Localizacion</li>
-                <li class="items">Profecionalizmo</li>
-            </ul>
-
-            <img src="diferenciales/costado.jpg" class="imagenDiferenciales">
-
-        </div>
-
+       
+        <footer><!--Pie de pagina-->
+            <img src ="Productos/blanco.png" width="20%">
+            <p class="Copyright">&copy Copyright PlantasSabias - 2024</p>
+        </footer>
     </body>
 </html>
