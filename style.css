@@ -180,6 +180,20 @@ td,th{
     width: 100%;
 }
 
+/*
+main > p{ Asi aplicaria solo al hijo directo del main
+    background: red;
+}
+
+img + p{ Aplica al primer parrafo que viene despues de la imagen
+    background: yellow;
+}
+
+img ~ p{ Aplica a todos los parrafos despues de la imagen
+    background: #088c19;
+}
+*/
+
 .principal{
     padding: 3em 0;
     background: #FEFEFE;
@@ -260,7 +274,7 @@ p:first-line{
 }
 
 .listaDiferenciales{
-    width: 20%;
+    width: 50%;
     display: inline-block;
     vertical-align: top;
 }
@@ -278,7 +292,7 @@ p:first-line{
 }
 
 .imagenDiferenciales{
-    width: 60%;
+    width: 50%;
 }
 
 .video{
