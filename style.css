@@ -115,10 +115,7 @@ footer{
 
 /*STYLE DE CONTACTO*/
 
-main{
-    width: 940px;
-    margin: 0 auto;
-}
+
 
 form{
     margin: 40px 0;
@@ -183,12 +180,38 @@ td,th{
     width: 100%;
 }
 
+.principal{
+    padding: 3em 0;
+    background: #FEFEFE;
+    width: 940px;
+    margin: 0 auto;
+}
+
 .tituloPrincipal{
     text-align: center;
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;
 }
+
+/*
+.tituloPrincipal:first-letter{/*Primer letra en negrita
+    font-weight: bold;
+}
+
+.tituloPrincipal:before{ Al inicio
+    content: "[";
+}
+
+.tituloPrincipal:after{ Al final
+    content: "]";
+}
+
+
+p:first-line{
+    font-style: italic;
+}
+*/
 
 .principal p{
     margin: 0 0 1em;
@@ -210,6 +233,9 @@ td,th{
 
 .mapa{
     padding: 3em 0; /* 3 em seria 3 veces el tamaño de la fuente por defecto*/
+    background: linear-gradient(#FEFEFE,#888888);/*Crear el degradado de un color hacia otro linear-grandient (se puede aplicar con angulos ej: 45deg, como primer parametro tambien agregar cuanto % queres que ocupe cada color*/
+    /*background: radial-gradient(); seria lo mismo pero degradado en circulo*/
+
 }
 
 .mapa p{
@@ -217,15 +243,38 @@ td,th{
     text-align: center;
 }
 
-.concontenidoDiferencial{
+.mapaContenido{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.diferenciales{
+    padding: 3em 0;
+    background: #888888;
+
+}
+
+.contenidoDiferencial{
     width: 640px;
     margin: 0 auto;
 }
 
 .listaDiferenciales{
-    width: 40%;
+    width: 20%;
     display: inline-block;
     vertical-align: top;
+}
+
+.items{
+    line-height: 1.5;
+}
+
+.items:before{
+    content: "𓆰";
+}
+
+.items:first-child{
+    font-weight: bold;
 }
 
 .imagenDiferenciales{
