@@ -208,8 +208,33 @@ td,th{
     margin: 0 20px 20px 0;
 }
 
+.mapa{
+    padding: 3em 0; /* 3 em seria 3 veces el tamaño de la fuente por defecto*/
+}
+
+.mapa p{
+    margin:  0 0 2em;
+    text-align: center;
+}
+
+.concontenidoDiferencial{
+    width: 640px;
+    margin: 0 auto;
+}
+
+.listaDiferenciales{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
 .imagenDiferenciales{
-    width: 250px;
+    width: 60%;
+}
+
+.video{
+    width: 560px;
+    margin: 1em auto;
 }
 
 
