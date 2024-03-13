@@ -206,6 +206,7 @@ img ~ p{ Aplica a todos los parrafos despues de la imagen
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;
+    /*color: rgba(218,0,0.3)Nos permite ponerle opacidad al texto*/
 }
 
 /*
@@ -293,6 +294,13 @@ p:first-line{
 
 .imagenDiferenciales{
     width: 50%;
+    transition: 400ms;
+    box-shadow: 10px 10px 20px 5px #000000; /*La sombra*/
+}
+
+.imagenDiferenciales:hover{
+    opacity: 0.3;
+    
 }
 
 .video{
@@ -301,5 +309,21 @@ p:first-line{
 }
 
 
+@media screen and (max-width:480px){/*permite que trabajemos con excepciones o, dada una condicion, aplicar algo diferente*/
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+    .Caja,.principal,.mapaContenido, .contenidoDiferencial, .video{
+        width: auto;
+    }
+    .listaDiferenciales, .imagenDiferenciales{
+        width: 100%;
+    }
+}
+
 /*mobileinputtypes.com*/
 /*https://fonts.google.com/ fuentes de google*/
+/*Box Shadow en Google, CSS Generator, usar el de Mozilla (sombras)*/
