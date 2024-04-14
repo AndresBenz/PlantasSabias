@@ -57,6 +57,7 @@ nav a:hover{/*Captura el movimiento del mause*/
     padding: 30px 20px;
     box-sizing: border-box;
     border: 2px solid #000000; /* Los bordes se los puede simplicar de esta manera*/
+    transition: border-color 0.3s; /* Agrega una transición suave al cambio de color de borde */
     /*
     border-color: #000000;
     border-width: 2px;
@@ -69,12 +70,13 @@ nav a:hover{/*Captura el movimiento del mause*/
 
 .ProductosNavegacion li:hover{
     border-color: #c78c19;
+    margin-bottom: -4px;
    
 
 }
 
 .ProductosNavegacion li:hover h2{
-    font-size: 30px;
+    font-size: 25px;
 
 }
 
@@ -104,6 +106,7 @@ nav a:hover{/*Captura el movimiento del mause*/
 footer{
     text-align: center;
     background: url(Productos/Pie.jpg);
+    margin-top: 10px;
     padding: 40px;
 }
 
@@ -116,6 +119,9 @@ footer{
 /*STYLE DE CONTACTO*/
 
 
+main{
+    margin: 0 40px;
+}
 
 form{
     margin: 40px 0;
@@ -140,7 +146,7 @@ form label, form legend{ /*Separando por una coma puedo aplicarle el mismo estil
 }
 
 .enviar{
-    width: 40%;
+    width: 30%;
     padding: 15px 0;
     font-size: 18px;
     font-weight: bold;
@@ -148,6 +154,7 @@ form label, form legend{ /*Separando por una coma puedo aplicarle el mismo estil
     background: green;
     border: none;
     border-radius: 5px;
+    margin: 0 40px;
     transition: 1s all;/*Nos da una leve demora en el selector de enviar formulario*/
     cursor: pointer;/*Para cambiar la forma del puntero cuando este arriba del boton*/
 }
